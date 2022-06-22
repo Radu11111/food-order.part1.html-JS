@@ -1,0 +1,12 @@
+<script>
+  //data
+  foodName       = "Salad"//String 
+  foodPriceValue = 15.00 //Number 
+  foodPriceUnits = "MDL" //String
+  chargeDelivery =  40    // MDL
+  
+  clientQuantity = prompt( " We have\n\n" + foodName + "\n\nHow many?" )
+  totalCost      = foodPriceValue * clientQuantity+chargeDelivery 
+  alert( "you've ordered " + clientQuantity+"\nCharge for delivery "+chargeDelivery+foodPriceUnits+ "\nbill " + totalCost + foodPriceUnits )
+    //Hw1:apply a delivery tax
+</script>
